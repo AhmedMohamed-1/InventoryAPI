@@ -38,8 +38,13 @@ Follow these steps to run the project locally:
    ```
 
 4. **Update the connection string** in `appsettings.json` to point to your local SQL Server instance.
+   ```
+   "ConnectionStrings": {
+    "InventoryAPIconnection": "YOUR_CONNECTION_STRING_HERE"
+   }
+   ```
 
-5. **Run the project**
+6. **Run the project**
 
    ```bash
    dotnet run
